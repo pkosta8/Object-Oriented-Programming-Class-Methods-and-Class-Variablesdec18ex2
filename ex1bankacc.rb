@@ -7,3 +7,17 @@ class BankAccount
 def initialize
 @balance = 0.00
 end
+
+
+
+def initialize
+@balance = 0.00
+end
+
+def deposit(amount)
+@balance = @balance + amount
+end
+
+def withdrawl(amount)
+@balance = @balance - amount
+end
