@@ -45,3 +45,12 @@ end
 
 return total
 end
+
+
+
+def interest_time
+@@accounts.each do |bank_account|
+interest = bank_account.balance * @@interest_rate
+bank_account.balance = bank_account.balance + interest
+end
+end
